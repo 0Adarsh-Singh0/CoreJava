@@ -33,7 +33,7 @@ public class SortExample {
 		productList.add(p5);
 		
 		System.out.println(productList);
-		Collections.sort(productList);
+		Collections.sort(productList,new SortByRatings());
 		
 		// Second Method
 		//		Collections.sort(productList, new Comparator<Product>() {
